@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+/* font-family: "Concert One", sans-serif; */
+
+
+.dashboard_brand_name>span{
+color: orangered;
+font-size: 30px;
+}
+.sidebar-brand-icon{
+font-size: 35px;
+color: white;
+}   
+.logout{
+color: darkgoldenrod !important;
+font-size: 15px !important;
+}
+.nav-item:hover{
+cursor: pointer;
+}
+.logout:hover{
+cursor: pointer;
+transform: scale(1.1);
+transition: ease-in-out 200ms ;
+color: red !important;
+}
+.table>div{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 30px 0px 20px ;
+}
+.table>div>h1{
+    font-size: 25px;
+    color: orangered;
+    font-weight: 900;
+    text-shadow: 1px 1px 1px black;
+}
+.table>div>button{
+   border-radius: 8px;
+   color: white;
+   font-weight: 900;
+   background-color: orangered;
+}
+.eyeIcon{
+    color: orange;
+    opacity: 0.7;
+}
+.editIcon{
+    opacity: 0.7;
+    color: green;
+}
+.deleteIcon{
+    opacity: 0.7;
+    color: red;
+}
+.eyeIcon:hover{
+    color: red;
+    opacity: 1;
+    transform: scale(1.2);
+    transition: ease-in-out 200ms ;
+}
+.editIcon:hover{
+    opacity: 1;
+    transform: scale(1.2);
+    transition: ease-in-out 200ms ;
+}
+.deleteIcon:hover{
+    opacity: 1;
+    transform: scale(1.2);
+    transition: ease-in-out 200ms ;
+}
+.tableDiv>div{
+    text-align: center;
+}
+.editSection{
+    background-color: wheat
+}
+.editHead{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.editHead>button{
+   border-radius:8px ;
+   height: 40px;
+   color: white;
+   font-weight: bold;
+   background-color: orangered;
+}
+.editHead>h1{
+    font-size: 30px;
+    font-family: "Concert One", sans-serif;
+    text-shadow: 0px 0px 1px black;
+}
+.supportHead{
+    background-color: orangered !important;
+}
+.support{
+   align-items: center;
+   
+}
+.card-body{
+text-indent: auto;
+}
+
+.communityDate{
+    text-align: center;
+    font-size: 18px;
+    font-family: "Concert One", sans-serif;
+}
+.community_message{
+    font-size: 15px;
+    font-family: "Concert One", sans-serif;
+    display: block;
+}
+.publisher-input{
+    font-size: 18px;
+    font-family: "Concert One", sans-serif; 
+}
+.publisher-input{
+    width: 80%;
+}
+.card-header{
+    display:flex ;
+    justify-content: space-between;
+}
+.page-content{
+    padding-top: 70PX;
+}
+.publisher-btn>svg{
+   font-size: 40px;
+   padding-left: 0px;
+}
+.publisher-btn>svg:hover{
+   transform: scale(1.2);
+   transition: all 200ms ;
+}
+.user_delete{
+    color: orangered;
+    opacity: 0.5;
+}
+.user_edit{
+    opacity: 0.5;
+    color: green;
+}
+.user_delete:hover{
+    transform: scale(1.2);
+    transition: ease 200ms;
+    opacity: 1;
+}
+.user_edit:hover{
+    transform: scale(1.2);
+    transition: ease 200ms;
+    opacity: 1;
+}
+.edit_user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.form_div{
+    height: auto;
+    border: 1px solid black;
+    width: 60%;
+    border-radius: 15px 15px 15px 15px ;
+    padding: 20px;
+    background-color: orangered;   
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+/* font-family: "Madimi One", sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Madimi+One&display=swap');
+/* font-family: "Bree Serif", serif; */
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&family=Madimi+One&display=swap');
+/* font-family: "Literata", serif; */
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+/* font-family: "Concert One", sans-serif; */
+
+
+
+/* login Page */
+
+.login_page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Concert One", sans-serif;
+    font-size: large;
+    background-image: url("https://rare-gallery.com/uploads/posts/4600395-office-desk-smartphone-modern-black-work-business.jpg");
+    height: 100vh;
+    color: white;
+    background-position: center;
+    background-size: cover;
+    text-shadow: 0px 0px 2px black;
+}
+.image_container{
+    background-image: url("https://image.pngaaa.com/327/1493327-middle.png");
+    background-position: center;
+    background-size: cover;
+   height: 500px;
+   width: 400px;
+   border-radius: 20px 0px 0px 20px;
+   box-shadow: 1px 1px 10px black;
+   backdrop-filter: blur(10px);
+   transition: ease;
+}
+.login_form>form{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.login_form>h1{
+    text-align: center;
+}
+.login_form{
+    box-shadow: 1px 1px 10px black;
+    width: 380px;
+    height: 500px;
+    border-radius: 0px 20px 20px 0px;
+    backdrop-filter: blur(50px);
+    background: transparent;
+}
+.login_form>form>input{
+    height: 50px;
+    border-radius: 5px;
+    padding: 10px;
+}
+.submit_button{
+    background-color: rgb(238, 190, 102);
+    height: 50px;
+    border-radius: 5px;
+}
+.eye_icon{
+    display: flex;
+    justify-content: end;
+}
+
+/* same for forgot and reset page */
+@media (max-width: 820px) {
+    .image_container{
+        display: none;
+    }
+    .login_form{
+        border-radius: 20px 20px 20px 20px;
+    }
+   }
+
+
+
+
+   /* forgot page    */
+
+.header{
+    text-align: center;
+}
+
+.image_container {
+    animation: floatImage 4s ease-in-out infinite;
+}
+
+@keyframes floatImage{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-2.4rem);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
