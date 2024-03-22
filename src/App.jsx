@@ -23,7 +23,7 @@ import ViewSo from './components/appPage/SO/ViewSo'
 import AdminGuard from './utils/AdminGaurd'
 import UserGuard from './utils/UserGaurd'
 
-export const API_URL = "http://localhost:8000"
+export const API_URL = "https://order-management-be-fr5y.onrender.com"
 
 
 function App() {
