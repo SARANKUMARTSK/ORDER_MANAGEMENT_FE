@@ -3,7 +3,9 @@
 
 
 # Overview
-    Order Hub is a simple and efficient order management system built using the MERN stack (MongoDB, Express.js, React, Node.js). It features CRUD operations and uses JWT for user authentication and authorization. Passwords are securely hashed using bcrypt, and Mongoose is used for schema validation. The application supports two roles: Admin and User/Staff.
+    Order Hub is a simple and efficient order management system built using the MERN stack (MongoDB, Express.js, React, Node.js).
+It features CRUD operations and uses JWT for user authentication and authorization. Passwords are securely hashed using bcrypt, 
+and Mongoose is used for schema validation. The application supports two roles: Admin and User/Staff.
 
 
 # Roles and Permissions
@@ -50,7 +52,7 @@ npm run dev
 
 Deployment
 The application is deployed on Netlify. You can access it using the following link:
-Order Hub - Deployed Application
+Order Hub - https://bright-swan-63b24a.netlify.app
 
 # Login Credentials
 Admin Login:
